@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<odoo>
+   <!-- Le menu  -->
+    <menuitem id="menu_gest_commande"
+    name="Gestion Commande" />
+        <!-- Action pour ouvrir la liste des hotel  -->
+        <act_window id="action_gest_commande_commande"
+        name="Gestion Commande"
+        res_model="gest_commande.commande"
+        view_mode="tree,form"
+    />
+    <!-- L'Option du menu pour ouvrir la liste des hotel  -->
+    <menuitem id="menu_gestion_commande_commande"
+    name="Commande"
+    parent="menu_gest_commande"
+    action="action_gest_commande_commande"
+    />
+
+
+    <act_window id="action_gest_commande_menu"
+    name="Menus"
+    res_model="gest_commande.menu"
+    view_mode="tree,form"
+    />
+
+    <menuitem id="menu_gest_commande_menu"
+    name="Menu"
+    parent="menu_gest_commande"
+    action="action_gest_commande_menu"
+    />
+
+<!--    <act_window id="action_gest_commande_user"-->
+<!--    name="Client"-->
+<!--    res_model="gest_commande.user"-->
+<!--    view_mode="tree,form"-->
+<!--    />-->
+
+<!--    <menuitem id="menu_gest_commande_user"-->
+<!--    name="Client"-->
+<!--    parent="menu_gest_commande"-->
+<!--    action="action_gest_commande_user"-->
+<!--    />-->
+</odoo>

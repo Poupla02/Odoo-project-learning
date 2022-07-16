@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_gest_commande_commande,access.gest_commande.commande,model_gest_commande_commande,,1,1,1,1
+access_gest_commande_menu,access.gest_commande.menu,model_gest_commande_menu,,1,1,1,1
